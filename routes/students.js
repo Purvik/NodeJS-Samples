@@ -23,6 +23,19 @@ router.post('/addStudent',(req, res)=>{
             res.json({status:true, mesg: "Student Details Added", studentDetails:studentDT});
         }
     });
+
+});
+
+router.get('/getAll',(req,res)=>{
+
+    studentModel.find((error,result)=>{
+        if (error) {
+            res.send(error);
+        } else {
+            res.send(result);
+        }
+    });
+
 });
 
 module.exports = router;

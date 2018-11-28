@@ -29,4 +29,16 @@ router.post('/add',(req,res)=>{
 
 });
 
+router.get('/getAll',(req,res)=>{
+
+    facultyModel.find((error,result)=>{
+        if (error) {
+            res.send(error);
+        } else {
+            res.send(result);
+        }
+    });
+
+});
+
 module.exports = router;
