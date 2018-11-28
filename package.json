@@ -1,0 +1,24 @@
+{
+  "name": "demoapp1",
+  "version": "1.0.0",
+  "description": "Demo Application For MongoDB Connection Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Purvik/NodeJS-Samples.git"
+  },
+  "keywords": [
+    "NodeJs",
+    "MongoDB",
+    "Express"
+  ],
+  "author": "Purvik Rana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Purvik/NodeJS-Samples/issues"
+  },
+  "homepage": "https://github.com/Purvik/NodeJS-Samples#readme"
+}
