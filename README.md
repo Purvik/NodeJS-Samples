@@ -23,7 +23,9 @@ Open the `CMD` and go to your project folder locatoin then execute below command
 * To install required paKages
 
     `npm install mongoose --save`
+
     `npm install express --save`
+    
     `npm install body-parser --save`
 
 * For execution of our project on **Save Changes** install nodemon using command,
