@@ -25,7 +25,7 @@ Open the `CMD` and go to your project folder locatoin then execute below command
     `npm install mongoose --save`
 
     `npm install express --save`
-    
+
     `npm install body-parser --save`
 
 * For execution of our project on **Save Changes** install nodemon using command,
@@ -34,5 +34,9 @@ Open the `CMD` and go to your project folder locatoin then execute below command
 
 * To Run this Project first time (your default entry file **app.js** or **index.js**)
 
-    `node app.js`
+    `node app.js` or `nodemon`
+
+    If you start you application using `nodemon` there no need to rerun project using command, when you save your changes it'll automatically restart it. Else if you want to restart using terminal use `rs` to execute. It'll do so. 
+
+    To Get out of executiuon press `ctrl+C` and input `y -> ENTER`. 
 
