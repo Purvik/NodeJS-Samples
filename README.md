@@ -1,7 +1,6 @@
 "# NodeJS-Samples" 
 "Developed As Demo Project to Learn NodeJs with MongoDB, Express, Mongoose"
 
-
 "#To install required pacages"
 "npm install mongoose --save"
 "npm install express --save"
