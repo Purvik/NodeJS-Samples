@@ -4,18 +4,18 @@
 ## Create a Project
 *   create a directory with your desired project name using command
 
-        `mkdir demoApp1`
+    `mkdir demoApp1`
 
 *   switch to that folder using 
 
-        `cd demoApp1`
+    `cd demoApp1`
 
 *   execute command
 
-        `npm init`
+    `npm init`
 
-    
-##Installation of Required Components/Libraries/Modules
+
+### Installation of Required Components/Libraries/Modules
 
 Open the `CMD` and go to your project folder locatoin then execute below commands,
 * To install required paKages
