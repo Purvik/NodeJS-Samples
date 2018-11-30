@@ -3,6 +3,7 @@ const Schema = mongoose.Schema
 
 //Create Schema for Faculty Entity
 const facultySchema = new Schema({
+    code: Number,
     name: String,
     sublist: Array,
     isActive: Boolean
