@@ -3,6 +3,7 @@ const Schema = mongoose.Schema;
 
 //Create Schema for Student Entity
 const studentSchema = new Schema({
+    eno: Number,
     name: String,
     class: Number
 });
