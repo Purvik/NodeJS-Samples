@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const facultyModel = require('../models/faculty')
+const facultyModel = require('../models/faculty.model')
 
     //Default Route Home
     router.get('/',(req,res)=>{

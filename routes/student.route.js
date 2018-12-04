@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const studentModel = require('../models/student')
+const studentModel = require('../models/student.model')
 
 //Default Route Home
 router.get('/',(req,res)=>{
@@ -9,9 +9,7 @@ router.get('/',(req,res)=>{
 
 //Add Student API
 router.post('/add',(req, res)=>{
-
-    console.log("Adding Student Entry with :"+req.body);
-
+    //console.log("Adding Student Entry with :" + req.body);
     //create new entity using model by passing Body Params
     newStudent = new studentModel(req.body)
 
@@ -22,6 +20,7 @@ router.post('/add',(req, res)=>{
         } else {
             //respond with status, mesg and stored details if no error
             res.json({status:true, mesg: "Student Details Added", studentDetails:studentDT});
+            console.log("Student Details Added.");
         }
     });
 
@@ -29,7 +28,6 @@ router.post('/add',(req, res)=>{
 
 //Get All Stored Faculty API
 router.get('/getAll',(req,res)=>{
-
     //find call on database
     studentModel.find((error,result)=>{
         if (error) {
@@ -38,7 +36,6 @@ router.get('/getAll',(req,res)=>{
             res.send(result);
         }
     });
-
 });
 
 //Update a Single Student Entry
